@@ -8,11 +8,12 @@
 package com.tradle.react;
 
 import android.os.AsyncTask;
-import android.support.annotation.Nullable;
 import android.util.Base64;
 import android.util.Pair;
 
 import com.facebook.react.bridge.Callback;
+
+import javax.annotation.Nullable;
 
 import java.io.IOException;
 import java.net.DatagramSocket;
