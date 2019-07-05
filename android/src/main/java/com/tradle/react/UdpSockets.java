@@ -9,7 +9,6 @@ package com.tradle.react;
 
 import android.content.Context;
 import android.net.wifi.WifiManager;
-import android.support.annotation.Nullable;
 import android.util.SparseArray;
 
 import com.facebook.common.logging.FLog;
@@ -23,6 +22,8 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
+
+import javax.annotation.Nullable;
 
 import java.io.IOException;
 import java.net.SocketException;
